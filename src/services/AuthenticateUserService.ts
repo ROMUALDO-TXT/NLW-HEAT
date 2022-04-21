@@ -66,7 +66,7 @@ class AuthenticateUserService {
             expiresIn: "id"
         });
 
-        return response.data;
+        return { token, user };
     }
 }
 
