@@ -9,6 +9,7 @@
     "dev": "ts-node-dev src/app.ts"
   },
   "dependencies": {
+    "@prisma/client": "^3.12.0",
     "axios": "^0.26.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
